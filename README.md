@@ -18,7 +18,7 @@ will be created relative to your home directory (files/.link -> ~/.link).
 
 Additionally, if you have individual files or dirs you want linked INSTEAD of
 the whole directory they are contained in, create a dotfiles.cfg next to them.
-For each file or folder, add them like this to the dotfiles.cfg (ini format):
+For each file or folder, add them like this to the dotfiles.cfg ffile (ini format):
 ```
     [NAME_HERE]
     link=true
@@ -35,7 +35,7 @@ For example, files/.vim/dotfiles.cfg may contain:
 ```
 
 This indicates ~/.vim/snippets ~/.vim/colors will be created as their own links,
-instead ~/.vim itself.
+instead of ~/.vim itself.
 
 ## LICENSE
 
