@@ -19,10 +19,11 @@ will be created relative to your home directory (files/.link -> ~/.link).
 Additionally, if you have individual files or dirs you want linked INSTEAD of
 the whole directory they are contained in, create a dotfiles.cfg next to them.
 For each file or folder, add them like this to the dotfiles.cfg (ini format):
-``
+```
     [NAME_HERE]
     link=true
 ```
+
 Where "NAME_HERE" is the name of the item.
 
 For example, files/.vim/dotfiles.cfg may contain:
