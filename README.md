@@ -27,10 +27,10 @@ Where "NAME_HERE" is the name of the item.
 
 For example, files/.vim/dotfiles.cfg may contain:
 ```
-[snippets]
-link=true
-[colors]
-link=true
+    [snippets]
+    link=true
+    [colors]
+    link=true
 ```
 
 This indicates ~/.vim/snippets ~/.vim/colors will be created as their own links,
