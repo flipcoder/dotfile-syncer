@@ -14,7 +14,7 @@ As with any script, I cannot guarentee this program is bug-free, however I use i
 - Create 'files' directory next to this script and readme file.
 - Put your dotfiles in the 'files' directory that you've created, assuming they
 will be created relative to your home directory (files/.link -> ~/.link).
-- Run ./setup.py (with python2) to create/renew the links.
+- Run ./setup.py (with python3) to create/renew the links.
 
 Additionally, if you have individual files or dirs you want linked INSTEAD of
 the whole directory they are contained in, create a dotfiles.cfg next to them.
