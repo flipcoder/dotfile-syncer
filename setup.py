@@ -19,7 +19,7 @@ def confirm(question, default="y"):
     choice = input("%s (%s)? " % (question, options))
     choice = choice.lower()
     if choice == "":
-        CHOICE = DEFAULT
+        choice = default
     if choice == "a":
         always = True
     return choice == "y"
@@ -84,19 +84,6 @@ def recursive_symlink(path):
                 target_is_directory=os.path.isdir(link_path),
             )
 
-
-# def recursive_pull(path):
-#    for fn in os.listdir(path):
-#        rel_path = os.path.normpath(os.path.join(path, fn))
-
-#        if fn == ".git":
-#            back = os.getcwd()
-#            os.chdir(path) # path above .git (rel_path == .../.git)
-#            os.system("git pull")
-#            os.chdir(back)
-
-#        if os.path.isdir(rel_path):
-#            recursive_pull(rel_path)
 
 if __name__ == "__main__":
     if not confirm(
